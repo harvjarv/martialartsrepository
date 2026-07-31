@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+   <title>Reserve A Movie</title>
+  <link rel="stylesheet" href="style.css" >
+<style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+</head>
+
+<body>
+
+<h1>Reserve a Movie Now!</h1>
+
+<p>Search For A Movie In Our Database Using Our In-Depth Search Page</p>
+
+<fieldset>
+<legend>Your Information</legend>
+<ul>
+  <li><label for="form-name">Name:</label> <input type="text" name="customername" id-form="name"></li>
+  <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id-form="tel"></li>
+  <li><label for=form-email">Email:</label> <input type="email" name="email" id-form="email"></li>
+</ul>
+</fieldset>
+
+
+<h2>Choose Which Era:</h2>
+
+<fieldset>
+<legend>Film Era</legend>
+
+<legend>Decade <em>(Pick Your Preference)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="era" value="1960s"> 60s</label></li>
+  <li><label><input type="radio" name="era" value="1970s"> 70s</label></li>
+  <li><label><input type="radio" name="era" value="1980s"> 80s</label></li>
+  <li><label><input type="radio" name="era" value="1990s"> 90s</label></li>
+</ul>
+</fieldset>
+
+<p>Sub-Genre <em>(We'll Have A Film Waiting For Any Combination)</em>:</p>
+<ul>
+  <li><label><input type="checkbox" name="genre[]" value="Espionage" checked> Espionage</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="romance"> Romance</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="comedy"> Comedy</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="horror"> Horror</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="scifi"> Science Fiction</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="ninja"> Ninja</label></li>
+  <li><label><input type="checkbox" name="genre[]" value="tournaments"> Tournament</label></li>
+</ul>
+
+<p><input type="submit" value="Find My Film Now!"></p>
+  <li><a href="index.html" style="color: aqua ;"><p>Head back home</p></a></li> 
+
+</form>
+
+</body>
+</html>
